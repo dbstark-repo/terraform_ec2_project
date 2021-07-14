@@ -9,3 +9,8 @@ Creates route table and subnet association.
 Creates security group with inbound rules for port 22/80 and outbound to internet.
 Creates an EC2 instance with a key pair inside the subnet and is accessible via SSH.
 Contains a user script that starts service httpd and displays a custom message.
+
+NOTE: 
+Download the files and run terraform init to initialize.
+Run terraform apply to provision the template.
+Run terraform destroy to destroy the resources
